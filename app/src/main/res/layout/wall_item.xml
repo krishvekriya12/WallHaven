@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2E2A35"
+    android:orientation="vertical">
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="?actionBarSize"-->
+    <!--        android:background="#2E2A35"-->
+    <!--        android:gravity="center">-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Wall Haven"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20dp"-->
+    <!--            android:textStyle="bold" />-->
+
+    <!--    </LinearLayout>-->
+
+
+    <ImageView
+        android:id="@+id/wallset"
+        android:layout_width="190dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher_background" />
+
+
+</GridLayout>
